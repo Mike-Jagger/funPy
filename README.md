@@ -1,7 +1,6 @@
-# funPy
-Version 1.0.0
-
-Editor: Gerard Ledoux
-
-Description: These are python projects that I have chosen to practice various python development concepts and enhance my problem solving, project management and programming skills. I will be elaborating on what they are exactly later in the readme file
-
+<h1>funPy</h1>
+<i>Version: <b>1.0.1</b></i><br>
+<i>Editor: <b>Gerard Ledoux</b></i>
+<br>
+<br>
+<b>Goal of project:</b> These are python projects that I have chosen to practice various python development concepts and enhance my problem solving, project management and programming skills.
