@@ -14,3 +14,5 @@ def shortest_path(graph, start):
             distances[node] = 0
         else:
             distances[node] = float('inf')
+    print(f'Unvisited: {unvisited}\nDistances: {distances}')
+shortest_path(my_graph, 'A')
