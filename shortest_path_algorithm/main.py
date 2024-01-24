@@ -6,13 +6,8 @@ my_graph = {
 }
 
 def shortest_path(graph, start):
-    unvisited = []
-    distances = {}
-    for node in graph:
-        unvisited.append(node)
-        if node == start:
-            distances[node] = 0
-        else:
-            distances[node] = float('inf')
+    unvisited = list(graph)
+    distances = {node: 0 if node == start else float('inf') for node in graph}
     print(f'Unvisited: {unvisited}\nDistances: {distances}')
+    
 shortest_path(my_graph, 'A')
