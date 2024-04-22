@@ -20,7 +20,6 @@
             <li>Binary Search Tree</li>
         </ul>
         Followed up by learning a few technical skills like testing:
-        // Update this section
         <ul>
             <li>Testing with python: <a href="https://www.youtube.com/watch?v=cHYq1MRoyI0">Link to video</a></li>
             <li>Testing with c++: <a href="https://www.youtube.com/watch?v=nbFXI9SDfbk&list=PL_dsdStdDXbo-zApdWB5XiF2aWpsqzV55">Link to video</a></li>
