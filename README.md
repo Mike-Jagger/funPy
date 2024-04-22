@@ -7,7 +7,7 @@
 
 <h2>Weekly Task List</h2>
 <b><---------------Week 1---------------></b><br>
-For the week of <i>January 22nd</i> I will start of by working on free code camp scientific computing with python challenges which are:<br>
+For the <b>first week</b> I will start offs by working on free code camp scientific computing with python challenges which are:<br>
 <ul>
     <li>Password Generator</li>
     <li>Shortest Path Algorithm</li>
