@@ -75,10 +75,31 @@
             <div style="display:inline">
                 <hr style="float:left; width:40%; border-top:1px dashed;"/>
             </div>
-            <div style="display:inline; text-align: center;"><p style="float:left; width: 20%"><b>MORE</b></p></div>
+            <div style="display:inline; text-align: center;"><p style="float:left; width: 20%"><b>Week 3</b></p></div>
             <div style="display:inline">
                 <hr style="float:right; width: 40%; border-top:1px dashed;"/>
             </div>
+        </div>
+        <div>
+            <p style="float:left; margin-bottom:0;">For the <b>second week</b> I will continue improving on my problem solving and algorithm thinking skills by learning how to build the following common data structures</p>
+            <ul>
+                <li>Arrays</li>
+                <li>Linked Lists</li>
+                <li>Stack</li>
+                <li>Queues</li>
+                <li>Trees</li>
+                <li>Binary Trees</li>
+                <li>Binary Search Trees</li>
+                <li>Heaps</li>
+                <li>Graphs</li>
+                <li>Hashmap</li>
+                <li>Hashtable</li>
+            </ul>
+            <p style="margin-bottom:0;">Followed up by learning algorithms to implement when altering the above mentioned data structures:</p>
+            <ul>
+                <li>Implementing various data structures like arrays, lists, heaps, trees and graphs.</li>
+                <li>Implementing algorithms and many others on data structures.</li>
+            </ul>
         </div>
     </div>
 </div>
