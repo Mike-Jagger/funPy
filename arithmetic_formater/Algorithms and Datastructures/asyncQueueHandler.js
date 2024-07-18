@@ -84,4 +84,6 @@ createQueue([
   createTask(4)
 ]).then(result => console.log(result)); 
 
+link to article: https://krasimirtsonev.com/blog/article/implementing-an-async-queue-in-23-lines-of-code
+
 */
