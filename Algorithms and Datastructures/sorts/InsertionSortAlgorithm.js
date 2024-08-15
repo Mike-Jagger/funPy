@@ -11,7 +11,7 @@ function insertionSort(array) {
 
 let arr = [5, 4, 3, 2, 1];
 
-function reversequicksort(arr) {
+function reverseInsertion(arr) {
 	for (let i = arr.length - 2; i >= 0; i--) {
 		let curr = arr[i];
 
@@ -27,4 +27,4 @@ function reversequicksort(arr) {
 	return arr;
 }
 
-console.log(quicksort(arr));
+console.log(reverseInsertion(arr));
