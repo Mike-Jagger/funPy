@@ -16,3 +16,5 @@ let node2 = new ListNode(5);
 node1.next = node2;
 
 let list = new LinkedList(node1);
+
+console.log(list.head.next.data); //returns 5
