@@ -4,3 +4,9 @@ class ListNode {
 		this.next = null;
 	}
 }
+
+class LinkedList {
+	constructor(head = null) {
+		this.head = head;
+	}
+}
