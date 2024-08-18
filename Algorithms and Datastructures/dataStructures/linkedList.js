@@ -10,3 +10,7 @@ class LinkedList {
 		this.head = head;
 	}
 }
+
+let node1 = new ListNode(2);
+let node2 = new ListNode(5);
+node1.next = node2;
