@@ -41,6 +41,36 @@ class Stack {
 	}
 }
 
+function postFixEvaluation(exp) {
+	let stack = new Stack();
+	for (let i = 0; i < exp.length; i++) {
+		let c = exp[i];
+		if (!isNaN(c)) stack.push(c - "0");
+		else {
+			let val1 = stack.pop();
+			let val2 = stack.pop();
+			if (val1 == "Underflow" || val2 == "Underflow")
+				return "Can not perform postfix evaluation";
+			switch (c) {
+				case "+":
+					stack.push(val2 + val1);
+					break;
+				case "-":
+					stack.push(val2 - val1);
+					break;
+				case "/":
+					stack.push(val2 / val1);
+					break;
+				case "*":
+					stack.push(val2 * val1);
+					break;
+			}
+		}
+	}
+
+	return stack.pop();
+}
+
 // creating object for stack class
 let stack = new Stack();
 
@@ -69,3 +99,10 @@ console.log(stack.pop());
 
 // returns [10, 20]
 console.log(stack.printStack());
+
+// calling the above method
+// returns 9
+console.log(postFixEvaluation("235*+8-"));
+
+// returns "Can not perform postfix evaluation"
+console.log(postFixEvaluation("23*+"));
