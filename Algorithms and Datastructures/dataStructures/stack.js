@@ -32,5 +32,11 @@ class Stack {
 		// return true if stack is empty
 		return this.items.length == 0;
 	}
-	// printStack()
+
+	// printStack function
+	printStack() {
+		let str = "";
+		for (let i = 0; i < this.items.length; i++) str += this.items[i] + " ";
+		return str;
+	}
 }
