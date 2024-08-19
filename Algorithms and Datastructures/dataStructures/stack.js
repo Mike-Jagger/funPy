@@ -26,6 +26,11 @@ class Stack {
 		// but does'nt delete it.
 		return this.items[this.items.length - 1];
 	}
-	// isEmpty()
+
+	// isEmpty function
+	isEmpty() {
+		// return true if stack is empty
+		return this.items.length == 0;
+	}
 	// printStack()
 }
