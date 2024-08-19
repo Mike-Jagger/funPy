@@ -40,3 +40,14 @@ class Stack {
 		return str;
 	}
 }
+
+// creating object for stack class
+let stack = new Stack();
+
+// testing isEmpty and pop on an empty stack
+
+// returns false
+console.log(stack.isEmpty());
+
+// returns Underflow
+console.log(stack.pop());
