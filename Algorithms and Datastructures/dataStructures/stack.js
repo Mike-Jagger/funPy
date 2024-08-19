@@ -5,8 +5,12 @@ class Stack {
 		this.items = [];
 	}
 
-	// Functions to be implemented
-	// push(item)
+	// push function
+	push(element) {
+		// push element into the items
+		this.items.push(element);
+	}
+
 	// pop()
 	// peek()
 	// isEmpty()
