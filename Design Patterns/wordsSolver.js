@@ -171,3 +171,8 @@ function wordMapSolver(words, M, N, dirs) {
 
 wordMapSolver(words, words[0].length, words.length, dirs);
 console.log(match);
+
+// Longest running time should be O((M * N) * sqrt(M^2, N^2)) (looking at the words
+// formed diagonally from the edges of the box)
+// Counting dictionary size, worst space should be O(n + sqrt(M^2, N^2)) (where all
+// words in the dictionary are present in the puzzle and longest word formed diagonally)
