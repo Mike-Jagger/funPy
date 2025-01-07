@@ -65,3 +65,7 @@ let array = [5, 6, 7, 2];
 lowerPivotQuickSort(array, 0, 3);
 
 console.log(array);
+
+// bubble sort
+
+function bubbleSort(arr) {}
